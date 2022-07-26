@@ -3,7 +3,5 @@ class BooksController < ApplicationController
     @book = Book.new
   end
   
-  def
-end
 
 end
