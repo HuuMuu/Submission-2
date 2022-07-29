@@ -1,0 +1,8 @@
+<div>
+  <%= image_tag @book.get.image %>
+  <p>Title:<%= @book.title %></p>
+  <p>opinion:<%= @book.opinion %></p>
+  <p>投稿ユーザー画像:<%= image_tag 'sample-author1.jpg' %></p>
+  <p>ユーザーネーム:<%= @book.user.name %></p>
+  <p>投稿日:<%= @book.created_at.strftime('%Y/%m/%d') </p>
+</div>
